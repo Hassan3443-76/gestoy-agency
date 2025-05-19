@@ -1,3 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestoy Agency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Gestoy Agency</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Inicio -->
+    <section id="inicio" class="section hero">
+        <div class="container">
+            <h2>Transformamos tu negocio con soluciones innovadoras</h2>
+            <p>Somos una agencia integral, especializada en diseño, desarrollo web, marketing digital y más. ¡Vamos a llevar tu proyecto al siguiente nivel!</p>
+            <a href="#contacto" class="cta-button">¡Contáctanos!</a>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-container">
+                <div class="service">
+                    <h3>Desarrollo Web</h3>
+                    <p>Te ayudamos a crear sitios web modernos y funcionales. Desde páginas informativas hasta tiendas online, todo a medida para tu negocio.</p>
+                </div>
+                <div class="service">
+                    <h3>Marketing Digital</h3>
+                    <p>Desde SEO hasta campañas de publicidad online, desarrollamos estrategias personalizadas para mejorar tu presencia digital.</p>
+                </div>
+                <div class="service">
+                    <h3>Consultoría Tecnológica</h3>
+                    <p>Te guiamos a través de las mejores herramientas tecnológicas para optimizar tu empresa y llevarla al siguiente nivel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="nosotros" class="section">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>Gestoy Agency es una agencia con experiencia en diferentes áreas del mundo digital. Nos apasiona ayudar a las empresas a crecer a través de soluciones innovadoras. Nuestro equipo está formado por diseñadores, desarrolladores y expertos en marketing digital que trabajan en conjunto para ofrecerte lo mejor.</p>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section contact-form">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¿Listo para comenzar con tu proyecto? ¡Pónte en contacto con nosotros y juntos haremos crecer tu negocio!</p>
+            <form action="#">
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu email" required>
+                <textarea placeholder="Tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Gestoy Agency | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
 /* RESET y estilo base */
 * {
     margin: 0;
@@ -155,4 +238,3 @@ footer {
         font-size: 1.1em;
     }
 }
-
