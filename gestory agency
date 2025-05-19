@@ -1,1 +1,158 @@
+/* RESET y estilo base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #2d6a4f; /* Verde principal */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header nav ul li a:hover {
+    color: #80b918; /* Verde claro */
+}
+
+/* Secciones */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1500x800') center/cover no-repeat;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #80b918; /* Verde claro */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #6fa617; /* Verde medio */
+}
+
+/* Servicios */
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.service {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: left;
+}
+
+.service h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.service p {
+    font-size: 1.1em;
+    color: #777;
+}
+
+/* Formulario de contacto */
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #2d6a4f; /* Verde principal */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+form button:hover {
+    background-color: #80b918; /* Verde claro */
+}
+
+/* Footer */
+footer {
+    background-color: #2d6a4f; /* Verde principal */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Medios */
+@media screen and (max-width: 768px) {
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1.1em;
+    }
+}
 
